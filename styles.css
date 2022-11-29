@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 4rem;
+    background-color: rgb(30, 22, 99);
+    color: rgba(255, 255, 255, 0.774);
+}
+
+.nav-links{
+    display: flex;
+    gap: 4cm;
+}
+
+.nav-links > a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.home{
+    background-color: #3295e2;
+    min-height: 70vh;
+    padding-top: 4.5cm;
+}
+
+.home-desc{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    color: #14120b;
+    margin: auto ;
+}
+
+img{
+    width: 400px;
+}
+
+.home-content{
+    width: 50%;
+}
+
+.home-content > h1{
+    font-size:3rem ;
+}
+
+.home-content > p{
+    line-height: 30px;
+}
+
+.home-content > button{
+    background-color: transparent;
+    color: black;
+    border: 1px solid white;
+    padding: 20px 50px;
+    border-radius: 999px;
+}
+
+.home-content > button:hover{
+    color: whitesmoke;
+    background-color: transparent;
+    cursor: pointer ;
+}
+
+ .resume{
+    background-color: #78dbd3d3;
+    padding-top: 4.5cm; 
+} 
+.resume-heading{
+    font-size: 3rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.resume-cont{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.resume-item{
+    width: 40%;
+}
+
+.resume-cont > h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: darkcyan;
+}
+
+.contacts{
+    width: 80%;
+    margin: auto;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    
+}
+
+.contacts > h1{
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.contacts > form > label{
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.contacts > form > input{
+    width: 30%;
+    padding: 10px;
+}
+
+.contacts > form > textarea{
+    width: 30%;
+    padding: 10px;
+}
+
+.sendMessage{
+    color: black;
+    border: 1px solid black;
+    padding: 0.8rem 3.5rem;
+    cursor: pointer;
+}
